@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.h1{
+    font-size: 24px;
+  text-align: center;
+}
+
+.home{
+    display: flex;
+    margin: 0 auto;
+}
+
+.home_titre{
+    font-family: lekton,monospace;
+    font-weight: 700;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    z-index: 3;
+    color: #1c2f82;
+}
+
+.title-menu{
+    margin-top: 123px;
+}
+
+
+svg{
+    fill: #ffd14c;
+}
+.svg-courbe-gauche{
+    vertical-align:middle;
+    width: 100px !important;
+    margin-bottom: 140px;
+}
+
+.svg-courbe-droite{
+    width: 260px !important;
+  margin-bottom: 15px;
+}
+.svg{
+    width: 25px;
+}

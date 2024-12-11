@@ -1,0 +1,128 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.text-center{
+  text-align: center;      /* Aligne le texte au centre */
+  padding: 10px;
+  margin: 10px;
+  background-color: #ffd14c;
+  border: #ffd14c solid 5px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.full-height {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Changer pour aligner le contenu en haut */
+  overflow: hidden; /* Empêche tout débordement du contenu */
+}
+
+.content {
+  padding: 20px;
+  width: 1400px; /* Ajuste la largeur selon tes besoins */
+  max-height: 100%;
+  overflow-y: auto; /* Permet de faire défiler le contenu si nécessaire */
+}
+
+.title {
+  border-bottom: solid 10px #ffd14c;
+  font-size: 24px; /* Ajuste la taille du titre si nécessaire */
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  background-color: white; /* Ajoute un fond blanc pour éviter que le texte sous les titres ne soit visible */
+  z-index: 10; /* Assure que le titre reste au-dessus du contenu qui défile */
+  padding: 10px 0;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.titre_hover {
+  background-color: #ffd14c;
+  border-radius: 10px;
+  margin: -20px auto;
+  left: 0;
+  height: 15px;
+  z-index: -1;
+}
+
+/* Bouton pour passer à la recette suivante */
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 3px;
+}
+
+.nav ul {
+
+}
+
+.nav li{
+  display: inline;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 1rem;
+  padding: 0.5rem 0; /* Ajuste la hauteur des <li> */
+  position: relative;
+  color: #ffffff;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  padding: 10px;
+}
+
+nav li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ffd14c;
+  transition: width 0.5s;
+  z-index: -1;
+  
+
+}
+
+nav li:hover::before {
+  width: 100%;
+  
+}
+
+nav li:hover {
+  color: white; /* Couleur du texte pendant le hover */
+  
+}
+
+a {
+
+  
+
+}
